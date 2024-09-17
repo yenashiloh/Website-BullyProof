@@ -18,7 +18,7 @@
     "serve": "vite preview",
     "start": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "main -d build"
   },
   "dependencies": {
     "@coreui/chartjs": "^4.0.0",
