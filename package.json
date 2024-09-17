@@ -2,7 +2,7 @@
   "name": "@coreui/coreui-free-react-admin-template",
   "version": "5.1.0",
   "description": "CoreUI Free React Admin Template",
-  "homepage": ".",
+  "homepage": "https://yenashiloh.github.io/Website-BullyProof",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
@@ -16,7 +16,9 @@
     "build": "vite build",
     "lint": "eslint \"src/**/*.js\"",
     "serve": "vite preview",
-    "start": "vite"
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@coreui/chartjs": "^4.0.0",
@@ -49,6 +51,6 @@
     "postcss": "^8.4.38",
     "prettier": "3.3.2",
     "sass": "^1.77.5",
-    "vite": "^5.2.13"
+    "vite": "^5.4.6"
   }
 }
